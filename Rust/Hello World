@@ -1,0 +1,5 @@
+# main function inside it a println
+
+fn main() {
+    println!("Hello, world!");
+}
