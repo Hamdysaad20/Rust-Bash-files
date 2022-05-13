@@ -8,10 +8,10 @@
    
    mkdir Direc1
    cd Direc1
-   touch bashFile.sh
-   chmod +x bashFile.sh
-   clear 
-   vi bashFile.sh
+nano bashFile.sh
+
+
+
    
    read -p "Enter the first Number : " num1
    read -p "Enter the sec Number : " num2
@@ -29,3 +29,7 @@ then
 else
 	echo "$num1 is Odd"
 fi```
+
+ctrl-x y enter
+   chmod +x bashFile.sh
+   ./bashFile.sh
