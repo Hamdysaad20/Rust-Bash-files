@@ -56,7 +56,7 @@ let tuple_text:(i32)=(1) != let tuple_text:(i32)=(1)
 ________
 ### acess tuple :
 - YOU CAN'T ACESS THEM ALL !!!!
-- so , instade use the index 
+- so , instead use the index 
 ### EX:
 ```
 let tup:(i32,char)=(3,'d');
