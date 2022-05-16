@@ -68,7 +68,7 @@ __________
 ### Note: you have to specify the [type;size] & they have to be the same type .
 ### EX:
 ```
-let arr:[132;4]=[1,2,3,4];
+let arr:[i32;4]=[1,2,3,4];
 ```
 ### Note: access elements by there Indices. && can't add more elements to the array, i have to create a new array 
 _________________________________
