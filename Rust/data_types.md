@@ -63,3 +63,21 @@ let tup:(i32,char)=(3,'d');
 println("{}",tup.0);
 //output: 3 
 ```
+__________
+## array:
+### Note: you have to specify the [type;size] & they have to be the same type .
+### EX:
+```
+let arr:[132;4]=[1,2,3,4];
+```
+### Note: access elements by there Indices. && can't add more elements to the array, i have to create a new array 
+_________________________________
+- if i need to change any of these values i should make them mutable by putting( mut ) firest then assign the new value
+
+### EX:
+```
+let mut text:String ="Hi, MOM!";
+text:String="Hi, DAD!";
+```
+LOL that's it .
+thank you 
