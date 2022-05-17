@@ -1,6 +1,6 @@
 echo "Enter a number"
 read number 
-if [$number == 12 ]
+if [ $number == 12 ]
 then 
    echo "a yooo bro you are right" 
    exit
