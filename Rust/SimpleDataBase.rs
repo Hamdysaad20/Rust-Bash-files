@@ -79,14 +79,8 @@ fn main() {
 
     let mut _database = Database::new( Vec::new());
 
-    let user1 = User::new("hamdy20", "hamdy@divzoon.com","1wd3wa2wsAa#");
-    let user2 =User::new("hamdy20", "hamdy@divzoon.com","1wd3wa2wsAa#");
-    let user3 =User::new("hamdy20", "hamdy@divzoon.com","1wd3wa2wsAa#");
-    let user4 =User::new("hamdy20", "hamdy@divzoon.com","1wd3wa2wsAa#");
-    let user5 =User::new("hamdy20", "hamdy@divzoon.com","1wd3wa2wsAa#");
-    let user6 =User::new("hamdy20", "hamdy@divzoon.com","1wd3wa2wsAa#");
-    let user7 =User::new("hamdy20", "hamdy@divzoon.com","1wd3wa2wsAa#");
-    let user8 =User::new("hamdy20", "hamdy@divzoon.com","1wd3wa2wsAa#");
+    let user1 = User::new("@hamdy20", "mail@mail.com","password");
+// do it multi 
 
     _database.add_users( vec![user1, user2, user3, user4, user5, user6, user7, user8]);
 
